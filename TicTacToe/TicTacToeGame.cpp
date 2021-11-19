@@ -14,7 +14,7 @@ TicTacToeGame::TicTacToeGame()
     
 }
 
-TicTacToeGame::clearBoard()
+void TicTacToeGame::clearBoard()
 {
     
 }
