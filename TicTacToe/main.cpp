@@ -6,10 +6,14 @@
 //
 
 #include <iostream>
+#include "TicTacToeGame.hpp"
 
 using namespace std;
 
 int main()
 {
-        
+    TicTacToeGame game;
+    game.playGame();
+    
+    return EXIT_SUCCESS;
 }

@@ -8,16 +8,19 @@
 #ifndef TicTacToeGame_hpp
 #define TicTacToeGame_hpp
 
-#include <stdio.h>
+#include <iostream>
 using namespace std;
 
 class TicTacToeGame
 {
 public:
     TicTacToeGame();
-    void clearBoard();
+    void playGame();
+    
 private:
     char board[3][3];
+    void clearBoard();
+    void printBoard();
 };
 
 #endif /* TicTacToeGame_hpp */
